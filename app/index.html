@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="tasks">
+        <h2>Список задач</h2>
+        <form action="" id="input-form">
+          <div class="add"> 
+             <input type="text" id="taskinput">
+           <button  type="submit" class="addTask">Добавить</button>
+        </div>
+            <select name="task" id="task-select" >
+            <option value="all" selected>Все</option>  
+            <option value="execute">Выполненные</option> 
+            <option value="nonexecute">Не выполненные</option>
+            </select>
+        </form>
+     
+        <form id=test>
+               <div id="allTask"></div>
+              </form>
+            <!--  <h2>Items</h2>-->
+              <ul></ul>
+                     <h2>Пользователи</h2>
+              <div>
+                  <form action="">
+                      <button id="fetchUser" type="submit">Получить случайных пользователей</button>
+                  </form>
+                  <div id="randomUser"></div>
+              </div>
+    </div>
+</body>
+</html>
